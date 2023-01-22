@@ -1,0 +1,28 @@
+{
+  "name": "slideapp-worker",
+  "version": "1.0.0",
+  "description": "Worker that assembles videos from pictures and music.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon"
+  },
+  "author": "Dániel Gál",
+  "license": "ISC",
+  "dependencies": {
+    "@denxyzw/lpmau": "file:.yalc/@denxyzw/lpmau",
+    "@remotion/bundler": "^3.2.44",
+    "@remotion/renderer": "^3.2.44",
+    "remotion": "^3.3.18"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^3.3.18",
+    "@types/react": "^18.0.25",
+    "nodemon": "^2.0.20",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.8.4",
+    "yalc": "^1.0.0-pre.53"
+  }
+}

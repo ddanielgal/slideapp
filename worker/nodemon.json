@@ -1,0 +1,5 @@
+{
+  "watch": ["src", ".yalc"],
+  "ext": "ts,tsx,js",
+  "exec": "npm run build && npm run start"
+}
